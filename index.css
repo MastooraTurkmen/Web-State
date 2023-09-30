@@ -1,0 +1,136 @@
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 8.5em 2.5em;
+    background: #000;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+h1{
+    font-size: 3.4375rem;
+    margin: 0;
+    font-weight: 600;
+}
+
+.current{
+    font-size: 1.125rem;
+}
+
+.second-section, .first-section{
+    padding: 2.5em;
+    margin-bottom: 1.75em;
+    border-radius: 0.625rem;
+    height: 200px;
+}
+
+.first-section, button{
+    background-color: #7000FF;
+}
+
+.second-section{
+    border: 1px solid #2E2E2E;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.flex{
+    display: flex;
+}
+
+.amount{
+    margin: 0;
+}
+
+h2{
+    font-weight: 600;
+}
+
+img{
+    margin-right: 1em;
+    margin-bottom: auto;
+}
+
+p.amount{
+    text-transform: uppercase;
+    margin-bottom: 1em;
+}
+
+footer{
+    text-align: center;
+}
+
+button{
+    padding: 0.875em 2.125em;
+    width: 100%;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    font-weight: bold;
+    font-size: 1.25rem;
+    margin-bottom: 1em;
+    cursor: pointer;
+}
+
+.footer-para{
+    margin: auto;
+    width: 270px;
+    color: #878787;
+    font-size: 0.875rem;
+}
+
+.visitor{
+    font-weight: 300;
+    font-size: .9rem;
+    margin-top: .6em;
+}
+
+
+@media screen and (min-width: 750px) {
+
+    body{
+        margin: 8em 4em;
+    }
+
+    section{
+        display: flex;
+        gap: 2em;
+    }
+
+    .second-section{
+        display: flex;
+        flex-direction: row;
+        gap: 2em;
+        margin: 0 auto;
+        flex: 1;
+    }
+
+    .flex{
+        align-self: center;
+        width: auto;
+    }
+
+    .next{
+        margin-top: 0px;
+    }
+
+}
+
+@media screen and (min-width: 1000px) {
+    .container{
+        display: flex;
+        gap: 2em;
+        justify-content: center;
+    }
+    .footer-para{
+        text-align: left;
+    }
+
+}
+
+
+
